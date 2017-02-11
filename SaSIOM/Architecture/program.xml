@@ -1,0 +1,173 @@
+<system>
+    <metadata>
+    
+        <name>
+            proto-1
+        </name>
+        
+        <extension>
+            py
+        </extension>
+        
+        <id>
+            0
+        </id>
+        
+    </metadata>
+    <code>
+
+        <data>
+        
+            <element>
+                <name>
+                    t
+                </name>
+                <type>
+                    int
+                </type>
+                <value>
+                    0
+                </value>
+            </element>
+            
+            <element>
+                <name>
+                    m
+                </name>
+                <type>
+                    int
+                </type>
+                <value>
+                    0
+                </value>
+            </element>
+            
+            <element>
+                <name>
+                    n
+                </name>
+                <type>
+                    int
+                </type>
+                <value>
+                    0
+                </value>
+            </element>
+            
+        </data>
+        
+        <manipulations>
+        
+            <function>
+            
+                <metadata>
+                    <id>
+                        0
+                    </id>
+                    <name>
+                        getInput
+                    </name>
+                    <language>
+                        Python
+                    </language>
+                </metadata>  
+                
+                <inputs>
+                    <input>
+                        <name>
+                            m
+                        </name>
+                    </input> 
+                    <input>
+                        <name>
+                            n
+                        </name>
+                    </input>    
+                </inputs>
+                
+                <outputs>
+                    <output>
+                        <name>
+                            m
+                        </name>
+                    </output>
+                    
+                    <output>
+                        <name>
+                            n
+                        </name>
+                    </output>
+                </outputs>
+                
+            </function>
+        
+            <function>
+            
+                <metadata>
+                    <id>
+                        1
+                    </id>
+                    <name>
+                        add
+                    </name>
+                    <language>
+                        Python
+                    </language>
+                </metadata>  
+                
+                <inputs>
+                    <input>
+                        <name>
+                            m
+                        </name>
+                    </input> 
+                    <input>
+                        <name>
+                            n
+                        </name>
+                    </input>    
+                </inputs>
+                
+                <outputs>
+                    <output>
+                        <name>
+                            t
+                        </name>
+                    </output>
+                </outputs>
+                
+            </function>
+            
+            <function>
+            
+                <metadata>
+                    <id>
+                        2
+                    </id>
+                    <name>
+                        printNums
+                    </name>
+                    <language>
+                        Python
+                    </language>
+                </metadata>  
+                
+                <inputs>
+                
+                    <input>
+                        <name>
+                            t
+                        </name>
+                    </input> 
+                   
+                </inputs>
+                
+                <outputs>
+                </outputs>
+                
+            </function>
+            
+        </manipulations>
+        
+    </code>
+</system>
